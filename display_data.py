@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 # ## Read data into dataframe
-data_name = 'pems-bay'
-data_path = 'data/' + data_name + '.h5'
+data_name = 'metr-la'
+data_path = '../data/' + data_name + '.h5'
 df = pd.read_hdf(data_path)
 print(df.shape)
 print(df)

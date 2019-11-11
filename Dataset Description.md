@@ -61,6 +61,7 @@ The file is a `.csv` file and the size is pretty big. The fields are separated b
 |tolls_amount|0|
 |improvement_surcharge|0.3|
 |total_amount|9.95|
+|congestion_surchage|
 
 > The congestion surcharge is listed in the `cvs` file but no records or explanations showed in the official document.
 
