@@ -61,9 +61,17 @@ The file is a `.csv` file and the size is pretty big. The fields are separated b
 |tolls_amount|0|
 |improvement_surcharge|0.3|
 |total_amount|9.95|
-|congestion_surchage|
+|congestion_surchage| Nan |
 
 > The congestion surcharge is listed in the `cvs` file but no records or explanations showed in the official document.
+
+The visualization of the NYC yellow taxi is as follows. It is worth notifying that in the date '2019-01-01', there is a clear abnormality in the figure. This is due to the New Years eve hosted in Time Square, New York. The data show that the following two days has a rather regular traffic pattern.
+
+![NYC in 2019-01-01](figures/NYC-2019-01-01.png)
+
+![NYC in 2019-01-02](figures/NYC-2019-01-02.png)
+
+![NYC in 2019-01-03](figures/NYC-2019-01-03.png)
 
 ## Didi
 
