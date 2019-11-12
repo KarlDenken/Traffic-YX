@@ -45,7 +45,7 @@ for iter in range(24):
     new_df = pd.DataFrame(np.zeros((265, 265)), columns=location, index=location)
     
     df_part = df[str(start):str(end)]
-    # print(df_part)
+    print(df_part.info())
 
     from_locs = df_part['PULocationID']
     to_locs = df_part['DOLocationID']
@@ -58,7 +58,7 @@ for iter in range(24):
     plt.clf()
     ax = sns.heatmap(new_df, vmin=0, vmax=100)
     ax.set_title(f'Taxi data from {str(start)} to {str(end)}')
-    # plt.pause(0.1)
+    plt.pause(0.1)
 
 plt.ioff()    
 plt.show()
